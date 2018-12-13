@@ -1,4 +1,4 @@
 firewall_network_rules:
   web-access:
-    src:       10.253.70.90
-    dst:       10.253.60.70
+    src: 10.253.70.90
+    dst: 10.253.65.70
