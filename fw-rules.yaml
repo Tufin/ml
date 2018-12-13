@@ -1,4 +1,9 @@
 firewall_network_rules:
   web-access:
-    src: 10.253.70.90
-    dst: 10.253.65.70
+    src: 1.1.1.2
+    dst: 2.2.2.3
+    tcp: 80
+  db-access:
+    src: 1.1.1.1
+    dst: 2.2.2.2
+    tcp: 80
