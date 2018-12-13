@@ -1,4 +1,4 @@
 firewall_network_rules:
-  db-access:
+  web-access:
     src:       10.253.70.90
     dst:       10.253.60.70
